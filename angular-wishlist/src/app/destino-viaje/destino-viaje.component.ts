@@ -6,10 +6,8 @@ import { Component, OnInit, Input } from '@angular/core'; // agregamos 'Input' p
   styleUrls: ['./destino-viaje.component.css']
 })
 export class DestinoViajeComponent implements OnInit {
-  nombre: string; //declaro la variable nombre de tipo string
-  constructor() {
-    this.nombre = 'nombre por defecto'; // le doy un valor por defecto a la variable
-   }
+  @Input() nombre: string; //declaro la variable nombre de tipo string, añado el decorador @Input() para pasar las variables
+  constructor() {}
 
   ngOnInit() {
   }
