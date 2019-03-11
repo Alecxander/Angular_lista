@@ -1,0 +1,90 @@
+Curso de Angular
+
+Instalación.
+
+-- Instalar nvm, buscar "nvm install corey butler" para windows es administrador de versiones de node.
+
+Ingresar a la consola de windows (cmd)
+
+>nvm --version (saber versión ne nvm)
+
+>nvm list (Versiones de node instaladas)
+
+>node --version (Saber la version de node que se esta utilizando.
+
+>nvm use 11.10.0 (Para usar una versión de node disponible con "nvm list")
+
+>npm -v (Saber versión de npm)
+
+>npm install -g typescript (Instalar typescript de forma global)
+
+>npm install -g @angular/cli (Instalar angular/cli de forma global).
+
+>ng --version (Saber versión de angular/cli instalada).
+
+>ng --help (Saber comandos disponible de angular/cli)
+
+>ng new --help (Ayuda puntual de un comando en este caso "new").
+
+Creamos cuenta y repositorio Bitbucket.org
+
+Instalamos Git
+
+clanamos repositorio creado
+
+>git status (Saber el estado del repositorio)
+
+si modificamos algún archivo volvemos a dar git status para saber que archivos cambiaron.
+
+>git add -A (Los archivos preparados para commitiar selecciona todos).
+
+>git status (Verifico los archivos en verde preparados para commitiar).
+
+>git commit - m "mensaje de commit" (Commit local).
+
+>git push (Subo el archivo al servidor).
+
+>git pull (Obtener los cambios)
+
+---Primera aplicación de angular
+
+>ng new angular-hola-mundo (Creo un esqueleto de la aplicación de angular)
+
+>ng serve (Subo servidor de angular)
+
+>npm i -S bootstrap
+
+>ng generate component saludador (Genera un componente)
+
+---Angular WishList
+
+>ng new wish-list (Creo un esqueleto de la aplicación de angular)
+
+
+>npm i -S bootstrap
+
+>ng generate component DestinoViaje (Genera un componente)
+
+>ng serve (Subo servidor de angular)
+
+*** Agrego los stilos de bootstrap en el archivo src/styles.css
+@import '~bootstrap/dist/css/bootstrap'
+
+*** Agrego variable a src/app/destino-viaje/destino-viaje.component.ts despues de export class
+nombre: string;
+
+constructor(){
+ this.nombre = 'nombre por defecto';
+}
+
+
+
+
+
+
+
+
+
+
+
+
