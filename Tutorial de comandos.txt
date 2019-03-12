@@ -1,4 +1,4 @@
-Curso de Angular
+﻿Curso de Angular
 
 Instalación.
 
@@ -76,6 +76,8 @@ nombre: string;
 constructor(){
  this.nombre = 'nombre por defecto';
 }
+
+ng g c DestinoDetalle // Para generar un componente con un comando corto.
 
 
 
